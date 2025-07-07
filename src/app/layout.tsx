@@ -45,9 +45,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${saira.variable} antialiased min-h-screen font-saira`}
+        className={`${saira.variable} antialiased min-h-screen font-saira relative`}
       >
-        <div className="max-w-4xl mx-auto px-4 py-8">
+        <div className="bgart fixed inset-0 -z-999 pointer-events-none " />
+        <div className="max-w-4xl mx-auto px-4 py-8 relative z-10 bg-background">
           <Navbar />
           {children}
         </div>

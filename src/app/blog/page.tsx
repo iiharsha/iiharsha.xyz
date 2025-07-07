@@ -10,7 +10,7 @@ const posts = getPosts().sort(
 
 export default async function BlogPage() {
   return (
-    <main className="animate-fade-in-up relative">
+    <main className="animate-fade-in-up relative min-h-screen">
       <h1 className="text-4xl font-bold mb-8 text-white">
         <span className="text-accent mr-2">*</span>
         <ScrambleText text="blog" />
