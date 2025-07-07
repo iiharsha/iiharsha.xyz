@@ -1,3 +1,4 @@
+import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 
 const links = [
@@ -11,7 +12,9 @@ export function LinksSection() {
     return (
         <section className="animate-fade-in-up">
             <h2 className="text-2xl font-bold mb-6 flex items-center text-white">
-                <span className="text-accent mr-2">*</span> links
+                <span className="text-accent mr-1">
+                    <ArrowRight className="w-5 h-5" />
+                </span> links
             </h2>
             <div className="flex flex-wrap gap-4 text-[16px]">
                 {links.map((link, index) => (

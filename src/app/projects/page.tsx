@@ -1,7 +1,6 @@
 import ProjectCard from "@/components/project-card";
 import { ScrambleText } from "@/components/scramble-text";
 
-
 const projects = [
   {
     title: "MovieDB API Go",
@@ -30,6 +29,21 @@ const projects = [
     ],
     technologies: ["Go", "PostgreSQL", "REST", "JWT"],
     href: "https://github.com/iiharsha/go-jsonapi-bank"
+  },
+  {
+    title: "Recens Store",
+    description: "My first fasion brand online shop",
+    role: "Creator",
+    period: "Jan 2025",
+    achievements: [
+      "Designed and launched a fully responsive fashion e-commerce platform using Shopify CMS and Next.js",
+      "Integrated GraphQL APIs for dynamic product and collection rendering with real-time data updates",
+      "Implemented custom components for product filtering, cart management, and checkout flows",
+      "Optimized site performance with image lazy loading, static generation, and route-based code splitting",
+      "Collaborated with suppliers and designers to align UI/UX with brand identity and shopping behavior",
+    ],
+    technologies: ["Next.js", "React.js", "GraphQL", "Shopify CMS"],
+    href: "https://www.recens.co.in",
   },
   {
     title: "Kite",

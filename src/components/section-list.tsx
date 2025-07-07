@@ -26,7 +26,7 @@ export function SectionList({
     return (
         <section className="mb-16 animate-fade-in-up">
             <h2 className="text-2xl font-bold mb-6 flex items-center text-white">
-                <span className="text-accent mr-2">*</span> {title}
+                <span className="text-accent mr-2">#</span> {title}
             </h2>
             <div>
                 {items.map((item, index) => (

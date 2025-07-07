@@ -1,3 +1,5 @@
+import { BlogSection } from "@/components/blog-section";
+import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { LinksSection } from "@/components/links-section";
 import { Item, SectionList } from "@/components/section-list";
@@ -54,7 +56,9 @@ export default function Home() {
         viewAllHref="/projects"
         viewAllText="projects"
       />
+      <BlogSection />
       <LinksSection />
+      <Footer />
     </>
   );
 }
